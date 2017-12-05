@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.App {
+  text-align: center;
+  line-height: 1.2em;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #ddd;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  height: 150px;
+  padding: 20px;
+}
+
+.App-header h2 {
+  font-weight: 500;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.Instructions {
+  display: flex;
+  justify-content: center;
+}
+
+.Instructions-container {
+  width: 500px;
+  text-align: left;
+}
+
+li {
+  padding-bottom: 5px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+body {
+  font-family: 'Palatino', 'Garamond', serif;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.info {
+  text-align: center;
+}
+
+.wrapper {
+  margin: 50px auto 0;
+  width: 450px;
+}
+
+.board {
+	margin-left:120px;
+}
+
+.board button {
+  width: 60px;
+  height: 60px;
+  border: 0;
+  background: #bbb;
+
+}
+
+.player {
+  text-transform: capitalize;
+}
+
+.play-again {
+  display: none;
+}
+.play-again {
+  display: inline-block;
+  margin-bottom: 2em;
+  height: 40px;
+  line-height: 40px;
+  width: 50%;
+  background: mediumseagreen;
+  color: white;
+  text-decoration: none;
+  font-family: helvetica;
+  opacity: 0.9;
+}
+.play-again:hover {
+  opacity: 1;
+}
+
+@media (max-width: 460px) {
+  .message {
+    font-size: 1.3em;
+  }
+
+  .wrapper {
+    margin: 20px auto 0;
+    width: 240px;
+  }
+
+  .board button {
+    width: 30px;
+    height: 30px;
+  }
+}
