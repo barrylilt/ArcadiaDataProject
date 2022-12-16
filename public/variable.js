@@ -3,7 +3,7 @@ var config = {
         userPlayerName: "X",
         computerPlayerName: "O", 
         height: 3,
-        width: 5,     
+        width: 7,     
         startingPlayer: "X", 
         drawMsg: "This game is a draw.",
         winPrefix: "The winner is: ",
